@@ -7,8 +7,8 @@ class Output extends Component {
     return (
       <div className="half">
         <Subheader title="preview" />
-        <div className="content">
-          TODO: Output
+        <div className="output content">
+          {this.props.content}
         </div>
       </div>
     );

@@ -18,7 +18,7 @@ class App extends Component {
         <Header />
         <div className="app">
           <Input content={this.state.content} handleChange={this.updatePreview} />
-          <Output />
+          <Output content={this.state.content} />
         </div>
       </div>
     );
