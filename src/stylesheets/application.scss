@@ -19,6 +19,16 @@
   }
 }
 
+.subheader {
+  font-family: "Lato", sans-serif;
+  color: #A0AABF;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 10px;
+  border-bottom: 1px solid #DEDEDE;
+}
+
 .half {
   width: 50%;
   height: calc(100vh - 50px - 25px - 20px);
