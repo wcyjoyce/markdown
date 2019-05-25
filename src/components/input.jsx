@@ -7,9 +7,12 @@ class Input extends Component {
     return (
       <div className="half">
         <Subheader title="markdown" />
-        <div className="content">
-          TODO: Input
-        </div>
+        <textarea className="input content" onSubmit={(event) => event.preventDefault()}
+          type="text"
+          placeholder="Type something here"
+          value={this.props.content}
+          onChange={this.props.handleChange}
+        />
       </div>
     );
   };
